@@ -1,0 +1,405 @@
+#si {
+    background: rgb(248, 248, 248);  
+}
+#art {
+    background: rgb(248, 248, 248);
+    padding: 25px 25px 10px 25px;
+}
+
+.h1-art {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+#div-article {
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    margin: 0 150px;
+
+}
+
+#sub-div {
+    height: 500px;
+    width: 550px;
+    background-image: url(../IMG/trading.jpg); 
+    margin: 10px auto 5px auto;
+    background-size: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
+    0 2px 4px #0000000f;  
+    border-radius: 20px;
+}
+
+#sub-div2{
+    height: 500px;
+    width: 550px;
+    color: white;
+    margin: 10px auto;
+}
+
+.articles {
+    margin: 10px;
+    background: white;
+    width: 530px;
+    height: 235px;
+}
+
+#more-article {
+    height: auto;
+    display: flex;
+    padding: 0px 5px 150px 5px;
+    margin: 0px 170px;
+    background:  rgb(248, 248, 248);
+}
+
+@media(max-width: 1500px){
+    #more-article {
+        height: auto;
+        display: flex;
+        padding: 0px 5px 150px 5px;
+        margin: 0px 95px;
+        background:  rgb(248, 248, 248);
+
+    }
+    #div-article {
+        height: auto;
+        display: flex;
+        flex-direction: row; 
+        margin: 0 90px;
+    
+    }
+}
+.arti {
+    width: 550px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+
+}
+
+.article-h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: white solid 3px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    transform: scale(0.9);
+    transition: all .2s ease;
+    margin:auto;
+
+}
+.button:hover {
+    background: black;
+    border: none;
+}
+
+#difu {
+    padding-top: 15px;
+    margin: 350px 0px 0px 0px;
+     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    height: 150px;   
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.articles {
+    display: flex;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
+    0 2px 4px #0000000f;  
+    border-radius: 20px;
+}
+
+.backs {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.back-art {
+    background: url(../IMG/arriendo.jgpg.jpg);
+    background-size: cover;
+}
+
+.back-art1 {
+    background: url(../IMG/credito.jpg);
+    background-size: cover;
+}
+
+.content-art h1 {
+    text-align: center;
+    color: black;
+    margin: 20px 40px 10px 40px;
+    font-size: 35px;
+}
+
+.content-art p {
+    font-size: 20px;
+    margin: 20px 20px 70px 20px;
+    color: black;
+}
+.content-art a {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border: solid black 2px;
+    color: black;
+    border-radius: 30px;
+    margin: 80px 50px 50px 70px;
+    transition: all .2s ease;
+}
+
+.content-art a:hover {
+    border: solid rgb(255, 255, 255) 2px;
+    background: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.back-arti {
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.content-arti {
+    margin: 20px;
+}
+
+.content-arti p {
+    margin: 10px 0px 50px 0px;
+    font-size: 20px; 
+}
+
+.content-arti a {
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    border: solid black 2px;
+    color: #000;
+    border-radius: 30px;
+    margin: 80px 50px 50px 70px;
+    transition: all .2s ease;
+}
+
+.content-arti a:hover {
+    border: solid rgb(255, 255, 255) 2px;
+    background: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.back0 {
+    background: url(
+        ../IMG/cd.jpg
+    );
+    background-size: cover;
+
+}
+
+.back1 {
+    background: url(
+        ../IMG/ahorro.jpg
+    );
+    background-size: cover;
+
+}
+
+
+#contenido {
+    margin: 70px;
+}
+
+.informacion-art {
+    display: flex;
+}
+
+.text-art {
+    margin-top: 90px;
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px auto 0px 400px;
+}
+
+.bibliografia {
+    top: 150px;
+    background: rgb(245, 244, 244);
+    padding: 30px;
+    margin: 30px 70px 70px 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 
+    0 2px 4px #0000000f;  
+    height: auto;
+    width: 300px;
+    position: fixed;
+}
+
+.bibliografia h5 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #a15050;
+    margin-bottom: 30px;
+}
+
+.bibliografia p {
+    font-size: 20px;
+}
+
+.container-img {
+    background-color: #000;
+    width: 700px;
+    height: 350px;
+    margin: 20px auto 0px 400px;
+    background-image:url(../IMG/tradings.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container1-img {
+    background-color: #000;
+    width: 700px;
+    height: 350px;
+    margin: 20px auto 0px 400px;
+    background-image:url(../IMG/arriendogg.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container2-img {
+    background-color: #000;
+    width: 700px;
+    height: 350px;
+    margin: 20px auto 0px 400px;
+    background-image:url(../IMG/hipetca.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container3-img {
+    background-color: #000;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto 0px 400px;
+    background-image:url(../IMG/ahorro1.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.container4-img {
+    background-color: #000;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto 0px 0px;
+    background-image:url(../IMG/ahorro4.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container5-img {
+    background-color: #000;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto 0px 0px;
+    background-image:url(../IMG/ahorro2.jpg) ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container6-img {
+    background-color: #000;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto 0px 400px;
+    background-image:url(../IMG/Imagen\ de\ WhatsApp\ 2024-11-10\ a\ las\ 21.01.26_d8dc9539.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.c-continue {
+    margin: 30px 0px 0px 400px;
+    max-width: 700px;
+}
+
+.c-continue h1 {
+    font-size: 30px;
+}
+
+.c-continue ul {
+    margin-top: 40px;
+}
+.c-continue li {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+}
+
+.c-continue p {
+    margin-top: 30px;
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+@media(max-width: 1500px){
+    .bibliografia {
+        transform: scale(0.86);
+        margin: 0px 70px 70px 0px;
+    }
+
+    .title-content {
+        font-size: 55px; 
+        text-align: center; 
+        margin: 0px 1px 30px 400px;
+        max-width: 700px;
+    }
+    .c-continue {
+        margin: 30px 0px 0px 400px;
+        max-width: 700px;
+    }
+    .button-iva {
+        padding: 20px;
+        text-decoration: none;
+        color: black;
+        background: rgb(152, 211, 152);
+        border-radius: 30px;
+        text-align: center;
+        margin: 0px 0px 0px 280px;
+        font-size: 20px;
+        transition: all .2s ease;
+    }
+}
+
+.button-iva {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    background: rgb(152, 211, 152);
+    border-radius: 30px;
+    text-align: center;
+    margin: 0px 0px 0px 250px;
+    font-size: 20px;
+    transition: all .2s ease;
+    margin-bottom: 50px;
+}
+
+.button-iva:hover {
+    background: black;
+    color: white;
+    font-size: 20.5px;
+    padding: 20.5px;
+
+}

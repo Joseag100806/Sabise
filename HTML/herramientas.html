@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabise</title>
+    <link rel="stylesheet" href="../ESTILOS/styles.css">
+    <script src="../JS/script.js" defer></script>
+    <link rel="icon" href="../ICON/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=calculate" />
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=calculate" />
+    <link rel="icon" href="../ICON/icon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+<header class="navbar">
+    <nav class="bar">
+        <ul>
+            <li><a href="../HTML/index.html" >Inicio</a></li>
+            <li><a href="../HTML/aprende.html" >Aprende</a></li>
+            <li><a href="../HTML/herramientas.html" >Herramientas</a></li>
+            <li><a href="../HTML/faq.html" >FAQs</a></li>
+        </ul>
+    </nav>
+    <div class="box1">
+    <div class="box">
+        <input type="text" placeholder="Buscar">
+       <div class="search"><span class="material-symbols-outlined ii">search</span></div>
+    </div>
+    </div>
+    <a  class="logo" href="../index.html"><img class="logo-img" src="../IMG/logo.png" alt="logo_sabise"></a>   
+</header>
+<body id="tool_body">
+    <div class="space"></div>   
+    <div id="calculator-box">
+        <h1 class="title-h1">Calculadora de Finanzas</h1>
+        <div class="separator">
+        <div class="background">
+        <p class="p-1">En esta calculadora podrás saber cuánto tendrías que pagar en total, incluidos los impuestos por algún bien o servicio que quieras adquirir.<br><br>Simplemente tienes que ingresar el valor del producto y este te calculará el valor final del mismo.<br></p>
+        <a class="b-m" href="../ARTICULOS/articulo5.html">Saber más</a>
+        
+    </div>
+        <div id="rc">
+        <h1 class="ache1">Calculadora</h1>
+        <form id="consumoForm">
+            <label for="monto">
+                <input class="inputs" type="number" id="monto" placeholder="Ingrese monto" required>
+            </label><br>
+            <button href="#resultados"  type="button" class="value-button"  id="calcularIVA">Calcular IVA</button>
+            <br>
+            <button class="value-button" type="submit" id="calcularConsumo">Calcular Impuesto al Consumo</button>
+           </form>
+           <h3 class="ache3 aches">Resultado</h3>
+           <h2 id="resultados" class="result-style">Ingresa un monto de dinero</h2>
+    </div>
+</div>
+       <div id="calculator1-box">
+         <h1  class="title-h1">Calculadora interés compuesto</h1>
+    </div>
+    <div class="separator">
+    <div id="ic">
+        <h1 class="achez">¿Cuánto dinero quieres invertir?</h1>
+        <select class="inputs selects" name="time" id="time-select">
+            <option class="options" value="1rt">Seleccione tipo de tiempo</option>
+            <option class="options" value="meses">Meses</option>
+            <option class="options" value="años">Años</option>
+        </select>
+        <br>
+        <label for="time-i">
+        <input class="inputs" type="number" id="time-i" placeholder="Ingrese cantidad de tiempo">
+        </label>
+        <br>
+        <label for="monto1">
+            <input step="00.01" class="inputs" type="number" id="monto1" placeholder="Ingrese monto">
+        </label>
+        <br>
+        <button class="value-button button-cdt" id="calcularInteres" onclick="performOperation()">Calcular</button>
+        <h3 class="ache3 aches">Resultado</h3>
+        <h2 class="result-style" id="resultados1">Ingresa un monto de dinero</h2>
+    </div>
+    <div id="context">
+        <div class="back-blur">
+        <p class="p-context">
+            Si tienes buenos hábitos de ahorro y quieres que este se incremente, puedes depositarlo en un CDT, que te permitirá aumentar el valor de tus ahorros.
+            <br><br><div style="background: white; padding: 20px; border-radius: 20px; opacity: 0.9; font-weight: 600; text-align: center; line-height: 1.6"><p style="font-size: 25px;">Prueba este simulador para calcular en cuanto puede incrementar tu ahorro.</p></div></p>
+        <div class="note"><div class="div-note">Nota:</div><p>Ten en cuenta que esta calculadora estima una tasa de interés del 8%.</p> </div>
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <h1>No olvides explorar la Página ;)</h1>
+    <img src="../IMG/logo-footer.png" alt="footer-logo">
+    <p>Copyright © 2024 Grupo 11</p>
+    </footer>
+</html>
